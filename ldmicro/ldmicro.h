@@ -505,7 +505,7 @@ void WhatCanWeDoFromCursorAndTopology();
 bool FindSelected(int *gx, int *gy);
 bool MoveCursorNear(int *gx, int *gy);
 
-#define DISPLAY_MATRIX_X_SIZE 256
+#define DISPLAY_MATRIX_X_SIZE 32
 #define DISPLAY_MATRIX_Y_SIZE ((MAX_RUNGS + 1) * 2)
 extern SeriesNode DisplayMatrix[DISPLAY_MATRIX_X_SIZE][DISPLAY_MATRIX_Y_SIZE];
 extern ElemLeaf DisplayMatrixFiller;
