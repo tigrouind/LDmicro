@@ -308,7 +308,7 @@ void WhatCanWeDoFromCursorAndTopology()
 //-----------------------------------------------------------------------------
 void ForgetFromGrid(void *p)
 {
-    int i, j;
+    /*int i, j;
     for(i = 0; i < DISPLAY_MATRIX_X_SIZE; i++) {
         for(j = 0; j < DISPLAY_MATRIX_Y_SIZE; j++) {
             if(DisplayMatrix[i][j].any() == p) {
@@ -320,7 +320,7 @@ void ForgetFromGrid(void *p)
     if(Selected.data.any == p) {
         Selected.data.any = nullptr;
         //      SelectedWhich = ELEM_NULL; // ???
-    }
+    }*/
 }
 
 //-----------------------------------------------------------------------------
